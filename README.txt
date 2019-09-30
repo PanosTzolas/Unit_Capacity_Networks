@@ -1,23 +1,14 @@
-Ονοματεπώνυμο: Παναγιώτης Τζόλας
-ΑΜ: παλίο 6230,  νέο 1041903
-email: ptzolas@ceid.upatras.gr
-
-
-Περιεχόμενα
--report.pdf	--> έχει αναλυτικά τι κάνει κάθε συνάρτηση
+Files
 -src/main.cpp
-~Makefile	--> make για compile  & make clean για διαγραφή του program
+~Makefile	--> (make -> compile)  & (make clean -> delete program)
 
-Οδηγίες Εκτέλεσης
-~Στο main.cpp βρίσκεται ο κώδικας του προγράμματος.
+TO RUN
+~src/main.cpp the source code 
 
-~ Για να εκτελεστεί αρκεί ./program (αφού έχει γίνει make)
+~ To Run ./program (after make)
 
--Για κάθε περίπτωση γραφήματος αρκεί να αλλαχθούν καθένα απο τα #define κάτω απο τα includes στην αρχή του προγράμματος.
+-To change the graph dimensions
 ~ #define GAP 	10
 ~ #define GAP_2	1000 
 
--Γραφήματα :
-	~Ανάλογα με τα GAP και GAP_2 δημιουργούνται γραφήματα όπως τα figures του επιστημονικού άρθρου στο οποίοι βασίζεται η εργασία
-	~Στην συνέχεια προσθέτει ακμές και κόμβους με πιθανότητα και το μετατρέπει σε τυχαίο μοναδικό γράφημα
 
